@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json.schemastore.org/eslintrc.json",
+  "plugins": [
+    "eslint-plugin",
+    "@typescript-eslint",
+    "json",
+    "import",
+    "prettier",
+    "eslint-comments"
+  ],
+  "extends": [
+    "prettier",
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/recommended-requiring-type-checking",
+    "plugin:json/recommended-with-comments"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": ["./tsconfig.base.json", "./tsconfig.eslint.json"],
+    "extraFileExtensions": [".json"],
+    "sourceType": "module"
+  },
+  "rules": {
+    "prettier/prettier": "error",
+    "@typescript-eslint/consistent-type-definitions": ["error", "type"],
+    "@typescript-eslint/explicit-function-return-type": "error",
+    "@typescript-eslint/prefer-optional-chain": "error",
+    "@typescript-eslint/prefer-as-const": "error",
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      { "varsIgnorePattern": "^_", "argsIgnorePattern": "^_" }
+    ],
+    "eslint-comments/disable-enable-pair": [
+      "error",
+      { "allowWholeFile": true }
+    ],
+    "no-console": "error",
+    "arrow-body-style": ["error", "as-needed"],
+    "import/no-anonymous-default-export": [
+      "error",
+      {
+        "allowArray": false,
+        "allowArrowFunction": false,
+        "allowAnonymousClass": false,
+        "allowAnonymousFunction": false,
+        "allowCallExpression": false,
+        "allowLiteral": false,
+        "allowObject": false
+      }
+    ]
+  }
+}
