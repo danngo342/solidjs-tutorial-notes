@@ -17,7 +17,7 @@
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
-    "project": ["./tsconfig.base.json", "./tsconfig.eslint.json"],
+    "project": "tsconfig.json",
     "extraFileExtensions": [".json"],
     "sourceType": "module"
   },
@@ -29,11 +29,16 @@
     "@typescript-eslint/prefer-as-const": "error",
     "@typescript-eslint/no-unused-vars": [
       "error",
-      { "varsIgnorePattern": "^_", "argsIgnorePattern": "^_" }
+      {
+        "varsIgnorePattern": "^_",
+        "argsIgnorePattern": "^_"
+      }
     ],
     "eslint-comments/disable-enable-pair": [
       "error",
-      { "allowWholeFile": true }
+      {
+        "allowWholeFile": true
+      }
     ],
     "no-console": "error",
     "arrow-body-style": ["error", "as-needed"],

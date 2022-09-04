@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "strict": true,
     "target": "ESNext",
     "module": "ESNext",
     "moduleResolution": "node",
@@ -10,5 +11,7 @@
     "types": ["vite/client"],
     "noEmit": true,
     "isolatedModules": true
-  }
+  },
+  "include": ["src/**/*", "*.json", ".eslintrc.json"],
+  "exclude": ["node_modules"]
 }
