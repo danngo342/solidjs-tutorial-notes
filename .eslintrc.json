@@ -19,6 +19,10 @@
   "parserOptions": {
     "project": "tsconfig.json",
     "extraFileExtensions": [".json"],
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
     "sourceType": "module"
   },
   "rules": {
