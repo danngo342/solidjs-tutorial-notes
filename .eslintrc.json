@@ -43,14 +43,13 @@
         "argsIgnorePattern": "^_"
       }
     ],
+    "arrow-body-style": ["error", "as-needed"],
     "eslint-comments/disable-enable-pair": [
       "error",
       {
         "allowWholeFile": true
       }
     ],
-    "no-console": "error",
-    "arrow-body-style": ["error", "as-needed"],
     "import/no-anonymous-default-export": [
       "error",
       {
@@ -62,6 +61,7 @@
         "allowLiteral": false,
         "allowObject": false
       }
-    ]
+    ],
+    "no-console": "error"
   }
 }

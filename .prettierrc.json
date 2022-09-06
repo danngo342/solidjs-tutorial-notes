@@ -1,7 +1,8 @@
 {
+  "$schema": "https://json.schemastore.org/prettierrc.json",
   "arrowParens": "avoid",
-  "bracketSpacing": true,
   "endOfLine": "lf",
+  "bracketSpacing": true,
   "bracketSameLine": false,
   "jsxSingleQuote": true,
   "printWidth": 80,
