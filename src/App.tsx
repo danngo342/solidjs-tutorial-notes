@@ -1,10 +1,6 @@
-import type { Component } from 'solid-js'
-import Comp from './Input'
+import { Component } from 'solid-js'
+import OnMount from './OnMount'
 
-const App: Component = () => (
-  <>
-    <Comp />
-  </>
-)
+const App: Component = () => <OnMount />
 
 export default App

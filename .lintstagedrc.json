@@ -1,4 +1,4 @@
 {
-  "*.{ts,tsx}": ["tsc-files --noEmit -p tsconfig.eslint.json", "eslint --fix"],
+  "*.{ts,tsx}": ["tsc-files --noEmit", "eslint --fix"],
   "*.json": ["prettier --write", "eslint --fix"]
 }
