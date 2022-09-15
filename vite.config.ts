@@ -5,7 +5,6 @@ const viteConfig = defineConfig({
   plugins: [solidPlugin()],
   build: {
     target: 'esnext',
-    polyfillDynamicImport: false,
   },
 })
 

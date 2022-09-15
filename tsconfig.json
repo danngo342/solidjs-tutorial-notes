@@ -22,6 +22,12 @@
     "isolatedModules": true,
     "sourceMap": true
   },
-  "include": ["src/**/*.ts", "src/**/*.tsx", "*.json", ".eslintrc.json"],
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "*.json",
+    ".eslintrc.json",
+    "vite.config.ts"
+  ],
   "exclude": ["node_modules"]
 }

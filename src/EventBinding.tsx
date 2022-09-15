@@ -1,4 +1,5 @@
 import { createSignal, JSX } from 'solid-js'
+import './EventBinding.css'
 
 const [pos, setPos] = createSignal({ x: 0, y: 0 })
 

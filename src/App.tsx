@@ -1,6 +1,6 @@
 import { Component } from 'solid-js'
-import EventBinding from './EventBinding'
+import ClassListBinding from './ClassListBinding'
 
-const App: Component = () => <EventBinding />
+const App: Component = () => <ClassListBinding />
 
 export default App
