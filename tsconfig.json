@@ -9,6 +9,7 @@
     "noPropertyAccessFromIndexSignature": true,
     "noUncheckedIndexedAccess": true,
     "noUnusedLocals": true,
+    "forceConsistentCasingInFileNames": true,
     "target": "ESNext",
     "module": "ESNext",
     "moduleResolution": "node",
@@ -21,5 +22,6 @@
     "isolatedModules": true,
     "sourceMap": true
   },
-  "include": ["src/**/*.ts", "src/**/*.tsx", "*.json", ".eslintrc.json"]
+  "include": ["src/**/*.ts", "src/**/*.tsx", "*.json", ".eslintrc.json"],
+  "exclude": ["node_modules"]
 }

@@ -1,6 +1,6 @@
 import { Component } from 'solid-js'
-import OnMount from './OnMount'
+import EventBinding from './EventBinding'
 
-const App: Component = () => <OnMount />
+const App: Component = () => <EventBinding />
 
 export default App
