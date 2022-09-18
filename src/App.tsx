@@ -1,6 +1,6 @@
 import { Component } from 'solid-js'
-import ClassListBinding from './ClassListBinding'
+import BindingDirectives from './BindingDirectives'
 
-const App: Component = () => <ClassListBinding />
+const App: Component = () => <BindingDirectives />
 
 export default App

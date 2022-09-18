@@ -1,4 +1,4 @@
 {
-  "*.{ts,tsx}": ["tsc-files --noEmit", "eslint --fix"],
-  "*.json": ["prettier --write", "eslint --fix"]
+  "*.{ts,tsx}": ["tsc-files --noEmit", "pnpm prettier-eslint --write"],
+  "*.json": ["pnpm prettier-eslint --write"]
 }
