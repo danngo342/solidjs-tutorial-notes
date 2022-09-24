@@ -1,6 +1,6 @@
 import { Component } from 'solid-js'
-import BindingDirectives from './BindingDirectives'
+import StoreWithoutContext from './stores/StoreWithoutContext'
 
-const App: Component = () => <BindingDirectives />
+const App: Component = () => <StoreWithoutContext />
 
 export default App
