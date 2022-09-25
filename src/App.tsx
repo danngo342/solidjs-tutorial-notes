@@ -1,6 +1,6 @@
 import { Component } from 'solid-js'
-import StoreWithoutContext from './stores/StoreWithoutContext'
+import SuspenseList from './async/SuspenseList'
 
-const App: Component = () => <StoreWithoutContext />
+const App: Component = () => <SuspenseList />
 
 export default App
