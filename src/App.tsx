@@ -1,6 +1,6 @@
 import { Component } from 'solid-js'
-import SuspenseList from './async/SuspenseList'
+import Transitions from './async/Transitions'
 
-const App: Component = () => <SuspenseList />
+const App: Component = () => <Transitions />
 
 export default App
